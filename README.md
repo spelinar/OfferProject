@@ -1,4 +1,4 @@
-# OfferProject
+                                                            # OfferProject
 
 # Backend django:
 
@@ -23,5 +23,7 @@ run server -> python manage.py runserver
 
 
 # Frontend angularcli:
-# npm install
-# npm install filter-string
+
+npm install
+
+npm install filter-string

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.filters.input-data{
+  height: 40px;
+  width: 100%;
+  position: relative;
+ margin-left: auto;
+  margin-right: auto;
+}
+
+.form-control {
+  padding: 10px;
+  margin: 10px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  position: relative;
+  color: #000000;
+  transform: translateX(-10%);
+}
+
+.filters .input-data input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 3px solid silver;
+}
+
+
+body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+table{
+  border-collapse: collapse;
+}
+.header_fixed{
+  height: 600px;
+  overflow: auto;
+  margin: 30px;
+  border: 1px solid #dddddd;
+}
+
+.header_fixed thead th{
+  position: sticky;
+  top:0;
+  background-color: #5181b8;
+  color: #dddddd;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+th, td{
+  border-bottom: 1px solid #dddddd;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd){
+  background-color: #EDEEF1;
+}
+
+tr:hover{
+  color: #44b478;
+  cursor: pointer;
+  background-color: #FFFFFF;
+}
+
+td button{
+  border: none;
+  padding: 7px 20px;
+  border-radius: 20px;
+  background-color: #5181b8;
+  color: #dddddd;
+}
+
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}

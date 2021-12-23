@@ -4,13 +4,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.allll{
+  display: flex;
+  justify-content: center;
+}
 .filters.input-data{
   height: 40px;
   width: 100%;
   position: relative;
- margin-left: auto;
-  margin-right: auto;
 }
 
 .form-control {
@@ -20,7 +21,10 @@
   border: 1px solid #ccc;
   position: relative;
   color: #000000;
-  transform: translateX(-10%);
+  box-shadow: -20px 20px 0 -17px #eee,
+20px -20px 0 -17px #eee,
+20px 20px 0 -20px #592385,
+0 0 0 2px #592385;
 }
 
 .filters .input-data input{
@@ -44,14 +48,20 @@ table{
 .header_fixed{
   height: 600px;
   overflow: auto;
-  margin: 30px;
+  margin: 5px;
   border: 1px solid #dddddd;
+box-shadow:
+-15px -15px 2px -5px rgba(123,51,90,.5),
+-15px 15px 2px -5px rgba(60,74,123,.5),
+15px -15px 2px -5px rgba(255,0,0,.5),
+15px 15px 2px -5px rgba(60,123,68,.5);
 }
+
 
 .header_fixed thead th{
   position: sticky;
   top:0;
-  background-color: #5181b8;
+  background-color: #666666;
   color: #dddddd;
   font-size: 20px;
   font-weight: 800;

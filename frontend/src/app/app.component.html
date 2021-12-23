@@ -2,7 +2,7 @@
 <body>
 <div class="filters">
   <div class="input-data">
-        <input [(ngModel)]="filterString" type="text" class="form-control" placeholder="Filtr">
+        <input [(ngModel)]="searchValue" type="text" class="form-control" placeholder="Filtr">
   </div>
   </div>
 <div class="header_fixed">
@@ -21,7 +21,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr *ngFor="let offers of Offer | filter:filterString">
+    <tr *ngFor="let offers of Offers | searchfilter: searchValue">
       <td><span>{{offers.OffID}}</span></td>
       <td><span>{{offers.title}}</span></td>
       <td><span>{{offers.description}}</span></td>

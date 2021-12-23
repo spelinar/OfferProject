@@ -1,7 +1,9 @@
 export interface Offer{
-  OffID: string;
+
+  OffID: number;
   category_id: string;
   title: string;
   description: string;
+  price: number;
    create_at: string;
 }

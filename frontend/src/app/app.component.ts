@@ -8,14 +8,15 @@ import {PostService} from "./post.service";
 })
 
 export class AppComponent {
-  Offer: any;
+  Offers: any;
+  searchValue: any;
   title = '';
   filterString: any;
   constructor(private postData:PostService) {
   }
   ngOnInit(){
     this.postData.getPosts().subscribe((Offer)=>{
-        this.Offer = Offer;
+        this.Offers = Offer;
         console.log(Offer)
     });
   }

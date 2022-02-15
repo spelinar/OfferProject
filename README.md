@@ -1,4 +1,4 @@
-                                                            # OfferProject
+                                                            # OfferProject.
 
 # Backend django:
 
